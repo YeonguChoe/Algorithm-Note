@@ -1,1 +1,1 @@
-# Algorithm-Note
+# Algorithm Note
