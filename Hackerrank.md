@@ -26,3 +26,10 @@ output_file_stream_object.close(); // 파일을 닫아서 파일 자원을 해�
 char* home_path = getenv("HOME");
 ```
 
+### getline 함수
+```cpp
+string text; // string 변수를 선언한다.
+getline(cin, text); // 입력 객체인 cin을 사용하여 키보드로 부터 개행문자 '\n' 까지를 읽어서 text에 할당한다.
+cout << text << endl; // cout 객체에 text와 개행문자인 endl를 입력한다.
+```
+
