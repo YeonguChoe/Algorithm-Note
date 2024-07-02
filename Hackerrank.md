@@ -23,6 +23,6 @@ output_file_stream_object.close(); // 파일을 닫아서 파일 자원을 해�
 
 ## getenv("환경변수 이름")
 ```cpp
-char* oa_path = getenv("HOME");
+char* home_path = getenv("HOME");
 ```
 
