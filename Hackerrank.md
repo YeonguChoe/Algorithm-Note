@@ -9,7 +9,7 @@
   - 출력 스트림 객체가 파괴될 때 (예: 함수가 끝날 때)
   - 버퍼가 가득 찼을 때
   - 명시적으로 flush() 함수가 호출될 때
-  - std::endl manipulator를 사용할 때 (output_file_stream_object << std::endl)
+  - std::endl를 사용할 때 (output_file_stream_object << std::endl)
 
 ```cpp
 ofstream output_file_stream_object("파일이름.txt"); // 객체와 파일 자원을 연결한다.
