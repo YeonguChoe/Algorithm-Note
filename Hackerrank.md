@@ -27,6 +27,7 @@ char* home_path = getenv("HOME");
 ```
 
 ### getline 함수
+- cout 객체는 프로그램이 실행되는 동안에 운영체제의 콘솔과 연결된다.
 ```cpp
 string text; // string 변수를 선언한다.
 getline(cin, text); // 입력 객체인 cin을 사용하여 키보드로 부터 개행문자 '\n' 까지를 읽어서 text에 할당한다.
